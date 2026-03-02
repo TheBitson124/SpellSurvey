@@ -111,7 +111,7 @@ function renderImages(selectedComponents) {
 
         // Create and configure the Image
         const img = document.createElement('img');
-        img.src = `Images/${item.src}`;
+        img.src = `./${item.src}`;
         img.alt = item.name;
         img.className = "rune-image";
 
