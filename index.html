@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spell Casting Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="survey-container">
+        <div id="image-display" class="image-grid">
+            </div>
+
+        <h2 class="question-text">What spell do these make?</h2>
+        <div class="input-section">
+            <label for="spell-name">Spell Name</label>
+            <input type="text" id="spell-name" placeholder="Name your creation..." autocomplete="off">
+
+            <label for="user-answer">What spell do these make?</label>
+            <textarea id="user-answer" placeholder="Describe the effects..." rows="3"></textarea>
+        </div>
+
+        <button id="next-btn">Next</button>
+    </div>
+    <aside class="sidebar">
+        <h3>Shared Visions</h3>
+        <p class="sidebar-subtitle">What others saw in these runes:</p>
+        <div id="sidebar-content">
+            </div>
+    </aside>
+    <script src="script.js"></script>
+</body>
+</html>
