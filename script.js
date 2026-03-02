@@ -1,15 +1,15 @@
 // 1. Your Master List of spell components (filenames or URLs)
 
 const spellComponents = [
-    { src: "./images/air.png", name: "Air" },
-    { src: "./images/area.png", name: "Area" },
-    { src: "./images/ball.png", name: "Ball" },
-    { src: "./images/beam.png", name: "Beam" },
-    { src: "./images/chain.png", name: "Chain" },
-    { src: "./images/earth.png", name: "Earth" },
-    { src: "./images/fire.png", name: "Fire" },
-    { src: "./images/ice.png", name: "Ice" },
-    { src: "./images/lightning.png", name: "Lightning" }
+    { src: "./Images/air.PNG", name: "Air" },
+    { src: "./Images/area.PNG", name: "Area" },
+    { src: "./Images/ball.PNG", name: "Ball" },
+    { src: "./Images/beam.PNG", name: "Beam" },
+    { src: "./Images/chain.PNG", name: "Chain" },
+    { src: "./Images/earth.PNG", name: "Earth" },
+    { src: "./Images/fire.PNG", name: "Fire" },
+    { src: "./Images/ice.PNG", name: "Ice" },
+    { src: "./Images/lightning.PNG", name: "Lightning" }
 ];
 let currentQuestion = 1; // Start at 1 component
 const maxQuestions = 3;  // You can increase this to X
