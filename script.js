@@ -1,19 +1,16 @@
 // 1. Your Master List of spell components (filenames or URLs)
 
 const spellComponents = [
-    // paths are relative to the **root of the site** (index.html);
-    // remove the leading "./" and make sure the folder name matches exactly
-    // the directory on the server. GitHub Pages and most static hosts are
-    // case‑sensitive, while Windows isn’t, so lowercase vs uppercase matters.
-    { src: "Images/air.PNG", name: "Air" },
-    { src: "Images/area.PNG", name: "Area" },
-    { src: "Images/ball.PNG", name: "Ball" },
-    { src: "Images/beam.PNG", name: "Beam" },
-    { src: "Images/chain.PNG", name: "Chain" },
-    { src: "Images/earth.PNG", name: "Earth" },
-    { src: "Images/fire.PNG", name: "Fire" },
-    { src: "Images/ice.PNG", name: "Ice" },
-    { src: "Images/lightning.PNG", name: "Lightning" }
+
+    { src: "air.PNG", name: "Air" },
+    { src: "area.PNG", name: "Area" },
+    { src: "ball.PNG", name: "Ball" },
+    { src: "beam.PNG", name: "Beam" },
+    { src: "chain.PNG", name: "Chain" },
+    { src: "earth.PNG", name: "Earth" },
+    { src: "fire.PNG", name: "Fire" },
+    { src: "ice.PNG", name: "Ice" },
+    { src: "lightning.PNG", name: "Lightning" }
 ];
 let currentQuestion = 1; // Start at 1 component
 const maxQuestions = 3;  // You can increase this to X
